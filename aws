@@ -1,0 +1,13 @@
+```
+aws iam list-users --profile profileName
+```
+
+
+```
+aws configure --profile profileName
+aws configure set profile.profileName.region us-east-2
+export AWS_PROFILE=profileName
+
+```
+
+$Env:AWS_PROFILE="my-profile"
